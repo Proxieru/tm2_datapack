@@ -1,0 +1,2 @@
+execute at @e[tag=func_regenerate] if entity @a[distance=..2] run effect give @a[distance=..2] instant_health 1 10 true
+execute as @e[tag=func_regenerate] run data modify entity @s Invisible set value 1b

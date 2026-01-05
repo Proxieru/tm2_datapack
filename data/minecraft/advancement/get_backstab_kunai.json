@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "get_backstab": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "slots": {
+            "weapon": {
+              "predicates": {
+                "minecraft:custom_data": {
+                  "kunai_knife": true
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "minecraft:scripts/item/kunai_knife_check"
+  }
+}

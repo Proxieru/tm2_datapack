@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "get_backstab": {
+      "trigger": "minecraft:player_hurt_entity"
+    }
+  },
+  "rewards": {
+    "function": "minecraft:scripts/item/mad_milk_check"
+  }
+}

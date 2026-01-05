@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "get_backstab": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "slots": {
+            "weapon": {
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "minecraft:scripts/crit_check"
+  }
+}
