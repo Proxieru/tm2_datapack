@@ -9,7 +9,7 @@ to commit that'd be cool lol.
 1.21.9+ (Due to manniquins)
 
 # Uses
-This datapack is meant to be loaded onto a existing world to act as a map.
+This datapack is meant to be loaded onto a existing world which acts as a map.
 it just pulls the strings behind the curtains and manages rounds and entities.
 
 Eventully when this is more complete I will put this on modrinth
