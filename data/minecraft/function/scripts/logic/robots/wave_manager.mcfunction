@@ -4,3 +4,5 @@ scoreboard players remove @e[scores={robotspawntimer=1..}] robotspawntimer 1
 scoreboard players remove @e[scores={robotwavedelay=1..}] robotwavedelay 1
 
 execute if entity @e[scores={wave=1}] run function minecraft:scripts/logic/robots/spawn/wave1
+
+# Eventully, eventully..
