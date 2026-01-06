@@ -13,9 +13,9 @@ function scripts/logic/jarate_tick
 
 # logic scripts
 function minecraft:scripts/logic/robots/wave_manager
-function minecraft:scripts/logic/lifestate
 function minecraft:scripts/logic/round_manager
 function minecraft:scripts/logic/handle_cloak
+function minecraft:scripts/logic/lifestate
 function scripts/logic/ammo {}
 
 # object scripts
@@ -38,6 +38,9 @@ function minecraft:scripts/statusbar
 # item
 function minecraft:scripts/item/spy/spy_cicle_tick
 function minecraft:scripts/item/scout/soda_popper
+
+# scheduler
+function minecraft:scheduler
 
 scoreboard players enable @a changeClass
 scoreboard players enable @a changeTeam
