@@ -36,8 +36,8 @@ function minecraft:scripts/clear_text
 function minecraft:scripts/statusbar
 
 # item
-function minecraft:scripts/item/spy_cicle_tick
-function minecraft:scripts/item/soda_popper
+function minecraft:scripts/item/spy/spy_cicle_tick
+function minecraft:scripts/item/scout/soda_popper
 
 scoreboard players enable @a changeClass
 scoreboard players enable @a changeTeam

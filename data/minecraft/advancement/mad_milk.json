@@ -5,6 +5,6 @@
     }
   },
   "rewards": {
-    "function": "minecraft:scripts/item/mad_milk_check"
+    "function": "minecraft:scripts/item/scout/mad_milk_check"
   }
 }

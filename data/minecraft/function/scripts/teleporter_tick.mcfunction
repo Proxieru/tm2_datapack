@@ -11,3 +11,5 @@ execute as @e[tag=teleporter_entrance] at @s run \
 
 execute as @e[tag=teleporter_entrance] run scoreboard players operation @s teleportRand = @s teleportRandOld
 execute as @e[tag=teleporter_exit] run scoreboard players operation @s teleportRand = @s teleportRandOld
+
+# This likely will never get added since I couldn't get it to work
