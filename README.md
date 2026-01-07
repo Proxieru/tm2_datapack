@@ -19,6 +19,7 @@ You should see "[TF2] engine now loaded." in chat when loading the world or enab
 - Backstabbing
 - Doors
 - Payload
+- Capture the flag
 - HUD
 - General Objects
 - Cloaking

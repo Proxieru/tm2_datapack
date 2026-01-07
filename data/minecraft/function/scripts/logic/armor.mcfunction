@@ -1,3 +1,6 @@
+# Trust me.. this took awhile
+
+
 # Scout
 execute at @e[scores={class=1}] run item replace entity @e[team=Red] armor.head with minecraft:player_head[minecraft:custom_name={"text":"Scout","color":"gold","underlined":true,"bold":true,"italic":false},minecraft:lore=[{"text":"","color":"gray","italic":false},{"text":"","color":"blue","italic":false}],profile={properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTZkYzk0ZDEzZDZhODg0MmUxNzU5NzNkNmE2Njc0M2UyYzIwYjMyZWM1NDNiNWRmNjJiN2QwNDhmODM3ZGFlYiJ9fX0="}]}] 1
 execute at @e[scores={class=1}] run item replace entity @e[team=Red] armor.chest with leather_chestplate[dyed_color=11546150]

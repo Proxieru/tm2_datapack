@@ -1,1 +1,1 @@
-# Will be used later
+$schedule function minecraft:scripts/logic/robots/spawn/robots $(delay)s

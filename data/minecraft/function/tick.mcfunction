@@ -1,15 +1,12 @@
 # class logic
-function minecraft:scripts/logic/demoman
-function minecraft:scripts/logic/engineer
-function minecraft:scripts/logic/heavy
-function minecraft:scripts/logic/medic
-function minecraft:scripts/logic/pyro
-function minecraft:scripts/logic/scout
-function minecraft:scripts/logic/sniper
-function minecraft:scripts/logic/soldier
-function minecraft:scripts/logic/calchealthpercent
-function minecraft:scripts/logic/armor
-function scripts/logic/jarate_tick
+function minecraft:scripts/logic/class/demoman
+function minecraft:scripts/logic/class/engineer
+function minecraft:scripts/logic/class/heavy
+function minecraft:scripts/logic/class/medic
+function minecraft:scripts/logic/class/pyro
+function minecraft:scripts/logic/class/scout
+function minecraft:scripts/logic/class/sniper
+function minecraft:scripts/logic/class/soldier
 
 # logic scripts
 function minecraft:scripts/logic/robots/wave_manager
@@ -34,14 +31,15 @@ function minecraft:scripts/objects/item_ammo_full
 # misc
 function minecraft:scripts/clear_text
 function minecraft:scripts/statusbar
+function minecraft:scripts/logic/calchealthpercent
+function minecraft:scripts/logic/armor
+function scripts/logic/jarate_tick
 
 # item
 function minecraft:scripts/item/spy/spy_cicle_tick
 function minecraft:scripts/item/scout/soda_popper
 
-# scheduler
-function minecraft:scheduler
-
+# scoreboard stuff
 scoreboard players enable @a changeClass
 scoreboard players enable @a changeTeam
 
