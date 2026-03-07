@@ -38,6 +38,7 @@ scoreboard objectives add ammoReserve dummy
 scoreboard objectives add ammoMax dummy
 scoreboard objectives add callMedic trigger
 scoreboard objectives add RobotsSpawned dummy
+scoreboard objectives add ID dummy
 
 # Team stuff
 team add Blu
@@ -63,7 +64,7 @@ bossbar set tf2payload players @a
 bossbar set minecraft:tf2timer visible false
 bossbar set minecraft:tf2payload visible false
 
-gamerule doImmediateRespawn true
+#gamerule doImmediateRespawn true
 
 say [TF2] engine loading..
 
