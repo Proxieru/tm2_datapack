@@ -1,0 +1,1 @@
+$schedule function minecraft:scripts/logic/robots/spawn/robots $(delay)s

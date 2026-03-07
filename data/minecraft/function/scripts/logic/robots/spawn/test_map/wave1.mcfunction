@@ -1,0 +1,1 @@
+function minecraft:scheduler {Delay:10}
