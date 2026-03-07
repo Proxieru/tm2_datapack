@@ -5,7 +5,7 @@ execute unless entity @e[tag=red_flagholder] run execute at @e[tag=red_item_team
 
 execute at @e[tag=red_item_teamflag] if entity @a[distance=..1,team=Blu] run scoreboard players set @a redflagowner 1
 
-execute unless entity @e[tag=red_flag_model] run summon block_display ~ ~ ~ {block_state:{Name:chest}}
+execute unless entity @e[tag=red_flag_model] if entity @e[tag=red_item_teamflag] run summon block_display ~ ~ ~ {block_state:{Name:chest}}
 tag @e[type=block_display,tag=!blu_flag_model] add red_flag_model
 execute at @e[tag=red_item_teamflag] run tp @e[tag=red_flag_model] ~ ~ ~ 0 0
 
@@ -20,7 +20,7 @@ execute unless entity @e[tag=blu_flagholder] run execute at @e[tag=blu_item_team
 
 execute at @e[tag=blu_item_teamflag] if entity @a[distance=..1,team=Red] run scoreboard players set @a bluflagowner 1
 
-execute unless entity @e[tag=blu_flag_model] run summon block_display ~ ~ ~ {block_state:{Name:chest}}
+execute unless entity @e[tag=blu_flag_model] if entity @e[tag=blu_item_teamflag] run summon block_display ~ ~ ~ {block_state:{Name:chest}}
 tag @e[type=block_display,tag=!red_flag_model] add blu_flag_model
 execute at @e[tag=blu_item_teamflag] run tp @e[tag=blu_flag_model] ~ ~ ~ 0 0
 
