@@ -1,6 +1,6 @@
 {
   "description": "",
-  "supported_items": "#minecraft:enchantable/sword",
+  "supported_items": "minecraft:iron_sword",
   "primary_items": "minecraft:iron_sword",
   "weight": 1,
   "max_level": 1,
