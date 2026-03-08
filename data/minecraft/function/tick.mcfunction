@@ -27,6 +27,7 @@ function minecraft:scripts/objects/payload_round_win
 function minecraft:scripts/objects/item_ammo_small
 function minecraft:scripts/objects/item_ammo_medium
 function minecraft:scripts/objects/item_ammo_full
+function scripts/objects/func_croc
 
 # misc
 function minecraft:scripts/clear_text
