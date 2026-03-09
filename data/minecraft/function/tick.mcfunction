@@ -9,7 +9,6 @@ function minecraft:scripts/logic/class/sniper
 function minecraft:scripts/logic/class/soldier
 
 # logic scripts
-function minecraft:scripts/logic/robots/wave_manager
 function minecraft:scripts/logic/round_manager
 function minecraft:scripts/logic/handle_cloak
 function minecraft:scripts/logic/lifestate
@@ -28,6 +27,7 @@ function minecraft:scripts/objects/item_ammo_small
 function minecraft:scripts/objects/item_ammo_medium
 function minecraft:scripts/objects/item_ammo_full
 function scripts/objects/func_croc
+function scripts/objects/trigger_stun
 
 # misc
 function minecraft:scripts/clear_text

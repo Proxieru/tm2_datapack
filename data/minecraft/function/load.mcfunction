@@ -39,6 +39,7 @@ scoreboard objectives add ammoMax dummy
 scoreboard objectives add callMedic trigger
 scoreboard objectives add RobotsSpawned dummy
 scoreboard objectives add ID dummy
+scoreboard objectives add StunTimer dummy
 
 # Team stuff
 team add Blu

@@ -1,0 +1,1 @@
+execute as @a[scores={StunTimer=1..}] unless entity @e[tag=trigger_stun,tag=stun1,distance=..3] unless entity @e[tag=trigger_stun,tag=stun2,distance=..3] run scoreboard players remove @s StunTimer 1
